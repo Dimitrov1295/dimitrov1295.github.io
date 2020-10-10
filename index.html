@@ -137,14 +137,14 @@
               <div class="content">
                 <div class="item">
                   <h3 class="title">
-                    <a target="_blank" href="http://ivandimitrov.ddns.net:8080/"
+                    <a target="_blank" href="https://postlist1.herokuapp.com/"
                       >Post List</a
                     >
                   </h3>
                   <p class="summary">
                     This app stores a collection of posts in a local database
                     and displays them using ReactJS. It uses Spring Security for
-                    authentication and Spring REST for CRUD operations.
+                    authentication and Spring Data REST for CRUD operations.
                   </p>
                   <p>
                     <a
@@ -152,6 +152,13 @@
                       href="https://github.com/Dimitrov1295/postlist"
                       target="_blank"
                       ><i class="fa fa-external-link"></i> View on GitHub</a
+                    >
+                    <a
+                      style="float: right"
+                      class="more-link"
+                      href="https://postlist1.herokuapp.com/"
+                      target="_blank"
+                      ><i class="fa fa-external-link"></i> See it served</a
                     >
                   </p>
                 </div>
@@ -162,40 +169,26 @@
                     >
                   </h3>
                   <p class="summary">
-                    This Spring app takes an image in the form of a file or a
-                    URL and converts it into a String in such a way that when it
-                    is presented on a black background with white text, the
-                    String looks like the source image.
+                    This app takes an image, goes through each pixel and
+                    calculates it's brightness. For each brightness, it inserts a
+                    character that has a "brightness" (the fatter the character,
+                    the brighter it is for example: "&" brighter than " ")
+                    similar to that pixel's brightness. After that is done, the
+                    resulting text looks like the source image.
                   </p>
                   <p>
                     <a
                       class="more-link"
-                      href="https://github.com/Dimitrov1295/Java/tree/master/SpringImgToAscii"
+                      href="https://github.com/Dimitrov1295/img-to-ascii"
                       target="_blank"
                       ><i class="fa fa-external-link"></i>View on GitHub</a
                     >
-                  </p>
-                </div>
-                <div class="item">
-                  <h3 class="title">
-                    <a target="_blank" href="http://ivandimitrov.ddns.net:8082/"
-                      >Earthquakes</a
-                    >
-                  </h3>
-                  <p class="summary">
-                    This is my implementation of the
                     <a
-                      target="_blank"
-                      href="https://earthquake.usgs.gov/fdsnws/event/1/"
-                      >USGS API</a
-                    >. It displays earthquake data using Spring Boot.
-                  </p>
-                  <p>
-                    <a
+                      style="float: right"
                       class="more-link"
-                      href="https://github.com/Dimitrov1295/Java/tree/master/EQList"
+                      href="https://img-to-ascii.herokuapp.com/"
                       target="_blank"
-                      ><i class="fa fa-external-link"></i> View on GitHub</a
+                      ><i class="fa fa-external-link"></i> See it served</a
                     >
                   </p>
                 </div>
